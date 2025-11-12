@@ -1,0 +1,113 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#mapid {
+  height: 100%;
+  width: 100%;
+}
+
+/* Pop-ups*/
+/* Hide the close button (X) in the popup */
+.leaflet-popup-close-button {
+  display: none !important;
+}
+
+/* Hide the popup tail (arrow) */
+.leaflet-popup-tip {
+  display: none;
+}
+
+
+/* Style for Pop-Up Content */
+.popup-content {
+  font-size: 14px;
+  max-width: auto;
+  max-height: auto;
+  color: #252525;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+
+/*Info Windows*/
+/* Style for Info Window */
+.info {
+  padding: 14px 10px;
+  font: 14px/18px Arial, Helvetica, sans-serif;
+  color: #bdbdbd;
+  background: #090909;
+  border-radius: 5px;
+}
+
+/* Style for Info Window Header type h4 */
+.info h3 {
+  margin: 0 0 5px;
+  color: #bdbdbd;
+}
+
+
+/* Style for Legend */
+.legend {
+  display: flex;
+  flex-direction: column; /* Stack the legend items vertically */
+  color: #bdbdbd;
+  opacity: 1;
+}
+
+/* Individual legend item style */
+.legend-item {
+  display: flex;
+  align-items: center; /* Center the symbol and text horizontally */
+  flex-direction: row; /* Stack symbol and text vertically */
+  margin-bottom: 8px; /* Add space between legend items */
+  opacity: 1;
+}
+
+/* Individual legend item style */
+.legend-popsize-item {
+  display: flex;
+  align-items: center; /* Center the symbol and text horizontally */
+  justify-content: space-around;
+  flex-direction: row; /* Stack symbol and text vertically */
+  margin-bottom: 8px; /* Add space between legend items */
+  opacity: 1;
+}
+
+/* Symbol styles for each Legend*/
+/* Circle symbol style */
+.legend-symbol {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; /* Make it a circle */
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0.4
+}
+
+/* Circle symbol style */
+.legend-poster-symbol {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%; /* Make it a circle */
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0.8
+}
+
+/* Circle symbol style */
+.legend-popsize-symbol {
+  border-radius: 50%; /* Make it a circle */
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+
